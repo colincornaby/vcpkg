@@ -20,6 +20,8 @@ set(PATCHES
     0013-configure-no-libcrypt.patch  # https://github.com/python/cpython/pull/28881
     0014-fix-get-python-inc-output.patch
     0015-python-for-build.patch # Python 3.11: Use --with-build-python instead
+    0016-osx-cross-build.patch
+    0017-setup-search-paths.patch
 )
 
 if(VCPKG_LIBRARY_LINKAGE STREQUAL "static")
