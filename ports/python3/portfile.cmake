@@ -22,6 +22,7 @@ set(PATCHES
     0015-python-for-build.patch # Python 3.11: Use --with-build-python instead
     0016-osx-cross-build.patch
     0017-setup-search-paths.patch
+    0018-osx-static.patch
 )
 
 if(VCPKG_LIBRARY_LINKAGE STREQUAL "static")
